@@ -123,7 +123,7 @@ export const roomData = [
 	},
 	{
 		id: 5,
-		name: "King Guest Room Pool View",
+		name: "King Room Pool View",
 		description: `Extra 15 sq. m/161 sq. ft., city and mountain view, high floor, WiFi. Stretch out in this spacious art deco-style room featuring a large bathroom. Start your day with a fresh coffee prepared in your room. Catch up with work at the desk and stay connected with WiFi access. Relax on the sofa and choose one of our on-demand movies to watch on the 48-inch TV. Freshen up in the spacious bathroom that features a separate bath tub, large walk-in shower, toilet and bidet before slipping in the bathrobe and slippers.`,
 		facilities: [
 			{ name: "Wifi", icon: <FaWifi /> },

@@ -28,14 +28,14 @@ const RoomDetails = () => {
 					className="bg-center bg-cover w-screen h-screen sm:h-[360px] md:h-screen"
 				/>
 				<div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-black/70 ">
-					<h1 className="font-primary text-6xl text-white text-center">
+					<h1 className="font-primary sm:text-4xl md:text-6xl text-white text-center">
 						{name}
 					</h1>
 				</div>
 			</div>
 
-			<main className="bg-white w-full flex md:flex-row sm:flex-col padding my-16 font-secondary">
-				<div className="md:w-3/5 md:padding">
+			<main className="bg-white w-full flex md:flex-row sm:flex-col sm:px-4 md:padding my-16 font-secondary">
+				<div className="md:w-3/5 md:padding sm:px-0">
 					<p className="font-bold text-2xl mb-4">{name}</p>
 					<p className="text-xl leading-8">{description}</p>
 					<div className="mt-6">
