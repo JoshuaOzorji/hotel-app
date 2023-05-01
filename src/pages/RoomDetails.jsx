@@ -34,7 +34,7 @@ const RoomDetails = () => {
 				</div>
 			</div>
 
-			<main className="bg-white w-full flex md:flex-row sm:flex-col sm:px-4 md:padding my-16 font-secondary">
+			<main className="bg-white w-full flex md:flex-row sm:flex-col sm:px-6 md:padding my-16 font-secondary">
 				<div className="md:w-3/5 md:padding sm:px-0">
 					<p className="font-bold text-2xl mb-4">{name}</p>
 					<p className="text-xl leading-8">{description}</p>
