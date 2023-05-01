@@ -10,7 +10,7 @@ const BookFormMobile = () => {
 	const { handleClick } = useContext(RoomContext);
 	return (
 		<form>
-			<div className="mt-10 md:hidden sm:flex w-full  flex-col justify-evenly mx-4 ">
+			<div className="mt-10 md:hidden sm:flex w-full  flex-col justify-evenly mx-8 ">
 				<div className="sm:border md:border-0">
 					<CheckIn />
 				</div>
