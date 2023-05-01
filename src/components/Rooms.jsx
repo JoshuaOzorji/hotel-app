@@ -12,7 +12,7 @@ const Rooms = () => {
 					<SpinnerCircular color="#c48619" />
 				</div>
 			)}
-			<div className="sm:px-8 md:padding py-6">
+			<div className="sm:px-5 md:padding py-6">
 				<h1 className="mx-6 text-5xl sm:text-3xl text-center font-primary">
 					Rooms & Suites
 				</h1>

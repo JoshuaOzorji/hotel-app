@@ -22,11 +22,13 @@ const Room = ({ room }) => {
 					<div className="flex gap-8 font-tertiary flex-row justify-between w-full bg-slate-100 rounded-2xl shadow-xl uppercase px-4">
 						<div className="flex flex-row">
 							<BsPeople size={25} color="#c48619" />
-							<span className="text-lg">Max People {maxPerson}</span>
+							<span className="sm:text-base md:text-lg">
+								Max People {maxPerson}
+							</span>
 						</div>
 
 						<div className="flex flex-row items-center gap-1">
-							<span className="text-lg">Size {size} m2</span>
+							<span className="sm:text-base md:text-lg">Size {size} m2</span>
 							<BsArrowsFullscreen color="#c48619" />
 						</div>
 					</div>
