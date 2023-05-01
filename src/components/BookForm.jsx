@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import KidsDropdown from "./KidsDropdown";
 import CheckIn from "./CheckIn";
 import CheckOut from "./CheckOut";
-import AdultDdown from "./AdultDDown";
+import AdultDdown from "./AdultDdown";
 import { RoomContext } from "../context/RoomContext";
 import { BiSearch } from "react-icons/bi";
 
