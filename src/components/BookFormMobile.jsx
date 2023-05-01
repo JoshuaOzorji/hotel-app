@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import KidsDropdown from "./KidsDropdown";
 import CheckIn from "./CheckIn";
 import CheckOut from "./CheckOut";
-import AdultDdown from "./AdultDDown";
+import AdultDropDown from "./AdultDropDown";
 import { RoomContext } from "../context/RoomContext";
 import { BiSearch } from "react-icons/bi";
 
@@ -20,7 +20,7 @@ const BookFormMobile = () => {
 				</div>
 
 				<div className="sm:border md:border-0">
-					<AdultDdown />
+					<AdultDropDown />
 				</div>
 
 				<div className="sm:border md:border-0">
