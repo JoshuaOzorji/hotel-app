@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import { useParams } from "react-router-dom";
 import { RoomContext } from "../context/RoomContext";
-import AdultDDown from "../components/AdultDdown";
+import AdultDropDown from "../components/AdultDropDown";
 import KidsDropdown from "../components/KidsDropdown";
 import CheckIn from "../components/CheckIn";
 import CheckOut from "../components/CheckOut";
@@ -62,7 +62,7 @@ const RoomDetails = () => {
 						<CheckOut />
 					</div>
 					<div>
-						<AdultDDown />
+						<AdultDropDown />
 					</div>
 					<div>
 						<KidsDropdown />
