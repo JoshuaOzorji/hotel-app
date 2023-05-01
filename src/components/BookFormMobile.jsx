@@ -11,6 +11,9 @@ const BookFormMobile = () => {
 	return (
 		<form>
 			<div className="mt-10 md:hidden sm:flex w-full  flex-col justify-evenly padding px-4">
+				<h1 className="mx-6 text-5xl sm:text-3xl text-center font-primary">
+					Book a room
+				</h1>
 				<div className="sm:border md:border-0">
 					<CheckIn />
 				</div>
