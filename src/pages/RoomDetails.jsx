@@ -40,7 +40,7 @@ const RoomDetails = () => {
 					<p className="text-xl leading-8">{description}</p>
 					<div className="mt-6">
 						<p className="font-bold text-2xl">Room Facilities:</p>
-						<span className="grid sm:grid-cols-2 md:grid-cols-3 gap-6 my-5 border">
+						<span className="grid sm:grid-cols-2 md:grid-cols-3 gap-6 my-5">
 							{facilities.map((item, index) => {
 								const { name, icon } = item;
 								return (
