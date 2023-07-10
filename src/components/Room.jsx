@@ -17,30 +17,38 @@ const Room = ({ room }) => {
 			</div>
 
 			{/* details */}
-			<div className="flex flex-col items-center text-center p-5 ">
-				<div className="flex justify-center ">
-					<div className="flex gap-8 font-tertiary flex-row justify-between w-full bg-slate-100 rounded-2xl shadow-xl uppercase px-4">
-						<div className="flex flex-row">
-							<BsPeople size={25} color="#c48619" />
-							<span className="sm:text-[12px] md:text-lg">
-								Max People {maxPerson}
-							</span>
+			<div className="flex flex-col items-center text-center p-8">
+				<div className="flex justify-center">
+					<div className="flex gap-8 font-tertiary flex-row justify-between w-full bg-slate-100 rounded-2xl shadow-xl uppercase px-4 sm:text-[12px] md:text-base">
+						<div className="flex flex-row items-center">
+							<BsPeople
+								className="sm:w-3 sm:h-3 md:w-5 md:h-5 "
+								color="#c48619"
+							/>
+							<span className="pl-1">Max People {maxPerson}</span>
 						</div>
 
-						<div className="flex flex-row items-center gap-1">
-							<span className="sm:text-[12px] md:text-lg">Size {size} m2</span>
-							<BsArrowsFullscreen color="#c48619" />
+						<div className="flex flex-row items-center">
+							<BsArrowsFullscreen
+								className="sm:w-3 sm:h-3 md:w-4 md:h-4 "
+								color="#c48619"
+							/>
+							<span className="pl-1">Size {size}</span>
 						</div>
 					</div>
 				</div>
-				<p name="name" className="font-primary h3 font-bold mt-4 line-clamp-1">
+				<p
+					name="name"
+					className="font-primary h3 font-bold mt-2 line-clamp-1 sm:text-base md:text-lg">
 					{name}
 				</p>
 
-				<p className="line-clamp-3 mb-4">{description}</p>
+				<p className="line-clamp-3 mb-4 sm:text-sm md:text-base">
+					{description}
+				</p>
 				<Link
 					to={`/room/${id}`}
-					className="btn rounded-2xl btn-secondary py-3 hover:scale-105 transition">
+					className="btn rounded-2xl btn-secondary py-2 hover:scale-105 transition px-3 sm:text-sm md:text-base">
 					Book now from ₦{price}
 				</Link>
 			</div>
