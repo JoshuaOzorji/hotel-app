@@ -13,7 +13,7 @@ const Rooms = () => {
 				</div>
 			)}
 			<div className="sm:px-5 md:padding py-6">
-				<h1 className="mx-6 text-5xl sm:text-3xl text-center font-primary">
+				<h1 className="mx-6 text-5xl sm:text-2xl text-center font-primary">
 					Rooms & Suites
 				</h1>
 				<div className="grid md:grid-cols-2 lg:grid-cols-3">

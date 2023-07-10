@@ -28,7 +28,7 @@ const RoomDetails = () => {
 					className="bg-center bg-cover w-screen h-screen sm:h-[360px] md:h-screen"
 				/>
 				<div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-black/70 ">
-					<h1 className="font-primary sm:text-4xl md:text-6xl text-white text-center">
+					<h1 className="font-primary sm:text-2xl md:text-6xl text-white text-center">
 						{name}
 					</h1>
 				</div>
